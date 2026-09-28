@@ -1,0 +1,7 @@
+{
+  "threshold": 0.8500000000000005,
+  "validation_f05": 0.649638580501287,
+  "n_estimators": 600,
+  "n_features": 35,
+  "trained_date": "2026-09-27 12:04:05"
+}

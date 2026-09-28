@@ -1,0 +1,87 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# Datasets and tabular data (>100MB)
+**/dataset/
+dataset/
+*.tsv
+*.csv
+
+# Archives and compressed submissions
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Outputs and intermediate files
+output/
+**/output/
+*.log
+
+# Cache folder: ignore large pickle files but keep trained model artifacts
+.cache/*
+**/.cache/*
+!.cache/model/
+!**/.cache/model/
+!**/.cache/model/**
+
+# Large pickle files
+*.pkl
+*.pickle
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Allow lightweight trained model files
+!**/.cache/model/lgbm_model.pkl
+!**/.cache/model/config.json
